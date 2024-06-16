@@ -1,0 +1,240 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+html {
+
+}
+.header {
+    position: relative;
+    display:flex;
+    background: #34495e;
+    height: 100vh;
+}
+.navbar {
+    width: 15vw;
+    height: 100vh;
+    background: rgba(25, 34, 83, 0.527);
+}
+.header .navbar ul li {
+    padding: 15px 0px;
+    margin: 5px;
+    background-color: rgb(16, 62, 62);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.header .navbar ul li a{
+    color: rgb(229, 236, 242);
+    margin-right: 20px;
+    text-decoration: none;
+}
+.header .navbar ul li:hover {
+    background-color: #222222;
+    opacity: 0.5;
+}
+.header .navbar ul li:hover a {
+    color: #d43535;
+}
+.header .navbar ul li:nth-child(1) {
+    background-color: rgb(0, 0, 0);
+    margin: 20px 2px;
+    padding: 25px 0;
+    text-align: center;
+}
+.content {
+    margin-top: 20px;
+}
+
+.content1, .content2, .content3, .content4 {
+    display: none;
+    /* position: absolute; */
+    width: 85vw;
+    height: 100vh;
+    top: 0;
+}
+.titles{
+    position: absolute;
+    display: none;
+    z-index: 1;
+    top: 20px;
+    left: 30%;
+}
+
+
+.content img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50% ;
+}
+.content h3 {
+    margin: 10px 0;
+}
+.content1 {
+    background-color: lightblue;
+}
+.content2 {
+    background-color: lightgreen;
+}
+.content3 {
+    background-color: lightcoral;
+}
+.content4 {
+    background-color: lightgoldenrodyellow;
+}
+.top, .bottom{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+.top li, .bottom li {
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: bisque;
+}
+.imgs li:hover {
+    opacity: 0.9;
+    box-shadow: 10px 10px 8px rgba(111, 103, 45, 0.676);
+}
+.imgs {
+    margin-top: 50px;
+    position: absolute;
+    border: #030303 ;
+    width: calc(100vw - 30vw);
+    height: 250px;
+    border-radius: 20px;
+    background: #0b1e39c3;
+    text-align: center;
+    left: 55%;
+    transform: translateX(-50%);
+    box-shadow: 20px 20px 8px rgba(17, 9, 67, 0.523);
+}
+.title {
+    margin-top: 0;
+    position: fixed;
+    width: 85vw;
+    border: 3px solid #000000;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    color: rgb(255, 255, 225);
+    background-color: #020c1bc3;
+}
+
+.kino1, .kino2 , .kino3 ,.kino4,.kino5,.kino6 {
+    /* display: none; */
+}
+.kinoContent {
+    display: none;
+    position: absolute;
+    width: calc(100vw - 15vw);
+    left: 0;
+    transform: translateX(-6%);
+    top: 40vh ;
+    height: 50vh;
+    border-radius: 40px;
+    border: 5px solid rgb(71, 69, 69);
+    background: #f0f0f0;
+    margin-left: auto;
+}
+.kinoContent > p {
+    position: absolute;
+    font-weight: bold;
+    margin: 15px;
+    left: 20vw;
+}
+
+.HC .HCContainer{
+    display: flex;
+    margin-top: 40px;
+}
+.kakunin > p{
+    position: absolute;
+    font-weight: bold;
+    margin: 15px;
+    top: 0px;
+    left: 60vw;
+}
+.leftHC > div , .rightHC > div, .left1HC > div{
+    display: flex;
+    margin: 30px 10px;
+}
+.leftHC > div > p , .rightHC > div > p, .left1HC > div > p {
+    margin-right: 5px;
+    width: 150px;
+}
+.leftHC , .left1HC{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.HC input {
+    font-weight: bold;
+    border: 2px solid black;
+    width: 40px;
+    padding: 5px;
+}
+.HC button {
+    position: absolute;
+    left: 20vw;
+    bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(81, 183, 103);
+    padding: 20px 50px;
+    border: 5px solid rgb(52, 51, 51);
+    border-radius: 15px;
+}
+.HC button:hover {
+    opacity: 0.5;
+}
+.kakunin {
+    position: absolute;
+    margin-right: 10px;
+    top: 15%;
+    right: 20%;
+}
+.kakunin > p{
+    z-index: 1;
+    top: -20%;
+    left: 60%;
+}
+.kakunin table {
+    width: 150%;
+    background-color: antiquewhite;
+}
+.kakunin > table td {
+    border: 2px solid black;
+    font-size: 15px;
+}
+.kakunin table td:first-child {
+    font-weight: 600;
+}
+.kakunin > table th {
+    border: 3px solid black;
+}
+.zaikokakunin {
+    border: 2px solid black;
+    margin-left: 50%;
+    width: 100%;
+    max-height: 100%;
+    border-radius: 25px;
+    overflow: hidden;
+    transform: translateX(-50%);
+
+}
+.zaikokakunin th , .zaikokakunin td {
+    border: 1px solid black;
+    font-size: 13px;
+    height: 10%;
+    min-width: 150px;
+    text-align: center;
+}

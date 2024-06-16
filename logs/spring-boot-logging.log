@@ -1,0 +1,534 @@
+2024-06-16T02:55:00.637+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] p.cofffeDemo.CofffeDemoApplication       : Starting CofffeDemoApplication using Java 17.0.6 with PID 11980 (C:\Users\tngoa\eclipse-workspace\cofffeDemo\target\classes started by tngoa in C:\Users\tngoa\eclipse-workspace\cofffeDemo)
+2024-06-16T02:55:00.647+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] p.cofffeDemo.CofffeDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-06-16T02:55:00.715+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\tngoa\.m2\repository\org\apache\cassandra\cassandra-all\0.8.1\cassandra-all-0.8.1.jar referenced one or more files that do not exist: file:/C:/Users/tngoa/.m2/repository/org/apache/cassandra/cassandra-all/0.8.1/apache-cassandra-thrift-0.8.1.jar
+2024-06-16T02:55:00.716+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-16T02:55:00.717+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-16T02:55:01.836+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-16T02:55:01.855+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-16T02:55:01.856+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-16T02:55:01.925+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-16T02:55:01.927+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1209 ms
+2024-06-16T02:55:02.150+09:00 DEBUG 11980 --- [cofffeDemo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2024-06-16T02:55:02.231+09:00 DEBUG 11980 --- [cofffeDemo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-06-16T02:55:02.267+09:00 DEBUG 11980 --- [cofffeDemo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-06-16T02:55:02.319+09:00 DEBUG 11980 --- [cofffeDemo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-06-16T02:55:02.436+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-16T02:55:02.498+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-06-16T02:55:02.520+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] p.cofffeDemo.CofffeDemoApplication       : Started CofffeDemoApplication in 2.384 seconds (process running for 3.496)
+2024-06-16T03:01:12.671+09:00  INFO 11980 --- [cofffeDemo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2024-06-16T03:01:12.838+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] p.cofffeDemo.CofffeDemoApplication       : Starting CofffeDemoApplication using Java 17.0.6 with PID 11980 (C:\Users\tngoa\eclipse-workspace\cofffeDemo\target\classes started by tngoa in C:\Users\tngoa\eclipse-workspace\cofffeDemo)
+2024-06-16T03:01:12.839+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] p.cofffeDemo.CofffeDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-06-16T03:01:13.001+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-16T03:01:13.002+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-16T03:01:13.002+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-16T03:01:13.020+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-16T03:01:13.021+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 179 ms
+2024-06-16T03:01:13.057+09:00 DEBUG 11980 --- [cofffeDemo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2024-06-16T03:01:13.079+09:00 DEBUG 11980 --- [cofffeDemo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-06-16T03:01:13.083+09:00 DEBUG 11980 --- [cofffeDemo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-06-16T03:01:13.086+09:00 DEBUG 11980 --- [cofffeDemo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-06-16T03:01:13.104+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-16T03:01:13.125+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-06-16T03:01:13.130+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] p.cofffeDemo.CofffeDemoApplication       : Started CofffeDemoApplication in 0.32 seconds (process running for 374.106)
+2024-06-16T03:01:13.133+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-06-16T03:02:33.294+09:00  INFO 11980 --- [cofffeDemo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 18 class path changes (0 additions, 12 deletions, 6 modifications)
+2024-06-16T03:02:51.301+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] p.cofffeDemo.CofffeDemoApplication       : Starting CofffeDemoApplication using Java 17.0.6 with PID 11980 (C:\Users\tngoa\eclipse-workspace\cofffeDemo\target\classes started by tngoa in C:\Users\tngoa\eclipse-workspace\cofffeDemo)
+2024-06-16T03:02:51.301+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] p.cofffeDemo.CofffeDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-06-16T03:02:51.489+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-16T03:02:51.494+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-16T03:02:51.495+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-16T03:02:51.515+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-16T03:02:51.516+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 212 ms
+2024-06-16T03:02:51.554+09:00 DEBUG 11980 --- [cofffeDemo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2024-06-16T03:02:51.567+09:00 DEBUG 11980 --- [cofffeDemo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-06-16T03:02:51.569+09:00 DEBUG 11980 --- [cofffeDemo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-06-16T03:02:51.573+09:00 DEBUG 11980 --- [cofffeDemo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-06-16T03:02:51.589+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-16T03:02:51.608+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-06-16T03:02:51.613+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] p.cofffeDemo.CofffeDemoApplication       : Started CofffeDemoApplication in 0.337 seconds (process running for 472.59)
+2024-06-16T03:02:51.614+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-06-16T03:33:11.190+09:00  INFO 11980 --- [cofffeDemo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-06-16T03:33:11.369+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] p.cofffeDemo.CofffeDemoApplication       : Starting CofffeDemoApplication using Java 17.0.6 with PID 11980 (C:\Users\tngoa\eclipse-workspace\cofffeDemo\target\classes started by tngoa in C:\Users\tngoa\eclipse-workspace\cofffeDemo)
+2024-06-16T03:33:11.370+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] p.cofffeDemo.CofffeDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-06-16T03:33:11.724+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-16T03:33:11.727+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-16T03:33:11.727+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-16T03:33:11.746+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-16T03:33:11.746+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 373 ms
+2024-06-16T03:33:11.777+09:00 DEBUG 11980 --- [cofffeDemo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2024-06-16T03:33:11.797+09:00 DEBUG 11980 --- [cofffeDemo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-06-16T03:33:11.802+09:00 DEBUG 11980 --- [cofffeDemo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-06-16T03:33:11.806+09:00 DEBUG 11980 --- [cofffeDemo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-06-16T03:33:11.828+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-16T03:33:11.885+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-06-16T03:33:11.902+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] p.cofffeDemo.CofffeDemoApplication       : Started CofffeDemoApplication in 0.563 seconds (process running for 2292.878)
+2024-06-16T03:33:11.905+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-06-16T03:33:47.649+09:00  INFO 11980 --- [cofffeDemo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-06-16T03:33:47.734+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] p.cofffeDemo.CofffeDemoApplication       : Starting CofffeDemoApplication using Java 17.0.6 with PID 11980 (C:\Users\tngoa\eclipse-workspace\cofffeDemo\target\classes started by tngoa in C:\Users\tngoa\eclipse-workspace\cofffeDemo)
+2024-06-16T03:33:47.735+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] p.cofffeDemo.CofffeDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-06-16T03:33:47.955+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-16T03:33:47.956+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-16T03:33:47.957+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-16T03:33:47.993+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-16T03:33:47.994+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 257 ms
+2024-06-16T03:33:48.036+09:00 DEBUG 11980 --- [cofffeDemo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2024-06-16T03:33:48.056+09:00 DEBUG 11980 --- [cofffeDemo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-06-16T03:33:48.060+09:00 DEBUG 11980 --- [cofffeDemo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-06-16T03:33:48.064+09:00 DEBUG 11980 --- [cofffeDemo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-06-16T03:33:48.087+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-16T03:33:48.131+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-06-16T03:33:48.138+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] p.cofffeDemo.CofffeDemoApplication       : Started CofffeDemoApplication in 0.431 seconds (process running for 2329.114)
+2024-06-16T03:33:48.139+09:00  INFO 11980 --- [cofffeDemo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-06-16T03:34:28.517+09:00  INFO 11980 --- [cofffeDemo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-16T03:34:28.522+09:00  INFO 11980 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-16T03:34:28.522+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-06-16T03:34:28.524+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-06-16T03:34:28.524+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-06-16T03:34:28.526+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4646940c
+2024-06-16T03:34:28.528+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@25416640
+2024-06-16T03:34:28.529+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-06-16T03:34:28.533+09:00  INFO 11980 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2024-06-16T03:34:28.560+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/login", parameters={}
+2024-06-16T03:34:28.608+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to projectcoffe.cofffeDemo.controller.LoginController#login()
+2024-06-16T03:34:28.690+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-06-16T03:34:29.612+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-16T03:34:29.726+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/css/reset.css", parameters={}
+2024-06-16T03:34:29.739+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/js/javascript.js", parameters={}
+2024-06-16T03:34:29.739+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/css/style.css", parameters={}
+2024-06-16T03:34:29.745+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-06-16T03:34:29.751+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-06-16T03:34:29.751+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-06-16T03:34:29.774+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-16T03:34:29.779+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-16T03:34:29.779+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-16T03:34:29.903+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/css/path/to/font-file.ttf", parameters={}
+2024-06-16T03:34:29.906+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-06-16T03:34:29.919+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-5] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-06-16T03:34:29.934+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource css/path/to/font-file.ttf.]
+2024-06-16T03:34:29.934+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-06-16T03:34:29.950+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2024-06-16T03:34:29.950+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-06-16T03:34:30.011+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-06-16T03:34:30.014+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sun Jun 16 03:34:29 JST 2024, status=404, error=Not Found, trace=org.springframework.web. (truncated)...]
+2024-06-16T03:34:30.128+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2024-06-16T03:34:30.571+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2024-06-16T03:34:30.571+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-06-16T03:34:30.571+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-06-16T03:34:30.571+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2024-06-16T03:34:30.571+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-06-16T03:34:30.571+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2024-06-16T03:34:30.571+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-06-16T03:34:30.579+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json]
+2024-06-16T03:34:30.583+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sun Jun 16 03:34:30 JST 2024, status=404, error=Not Found, trace=org.springframework.web. (truncated)...]
+2024-06-16T03:34:30.596+09:00 DEBUG 11980 --- [cofffeDemo] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2024-06-16T03:36:14.191+09:00  INFO 11980 --- [cofffeDemo] [RMI TCP Connection(43)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-06-16T15:03:20.197+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] p.cofffeDemo.CofffeDemoApplication       : Starting CofffeDemoApplication using Java 17.0.6 with PID 5308 (C:\Users\tngoa\eclipse-workspace\cofffeDemo\target\classes started by tngoa in C:\Users\tngoa\eclipse-workspace\cofffeDemo)
+2024-06-16T15:03:20.200+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] p.cofffeDemo.CofffeDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-06-16T15:03:20.379+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\tngoa\.m2\repository\org\apache\cassandra\cassandra-all\0.8.1\cassandra-all-0.8.1.jar referenced one or more files that do not exist: file:/C:/Users/tngoa/.m2/repository/org/apache/cassandra/cassandra-all/0.8.1/apache-cassandra-thrift-0.8.1.jar
+2024-06-16T15:03:20.381+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-16T15:03:20.382+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-16T15:03:23.490+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-16T15:03:23.533+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-16T15:03:23.534+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-16T15:03:23.687+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-16T15:03:23.688+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3305 ms
+2024-06-16T15:03:24.201+09:00 DEBUG 5308 --- [cofffeDemo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2024-06-16T15:03:24.351+09:00 DEBUG 5308 --- [cofffeDemo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-06-16T15:03:24.415+09:00 DEBUG 5308 --- [cofffeDemo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-06-16T15:03:24.501+09:00 DEBUG 5308 --- [cofffeDemo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-06-16T15:03:24.733+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-16T15:03:24.830+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-06-16T15:03:24.855+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] p.cofffeDemo.CofffeDemoApplication       : Started CofffeDemoApplication in 5.321 seconds (process running for 6.077)
+2024-06-16T15:03:40.706+09:00  INFO 5308 --- [cofffeDemo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-16T15:03:40.706+09:00  INFO 5308 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-16T15:03:40.706+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-06-16T15:03:40.706+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-06-16T15:03:40.706+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-06-16T15:03:40.706+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2f8366ed
+2024-06-16T15:03:40.706+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@57f9d9dd
+2024-06-16T15:03:40.706+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-06-16T15:03:40.706+09:00  INFO 5308 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-06-16T15:03:40.743+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/login", parameters={}
+2024-06-16T15:03:40.772+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to projectcoffe.cofffeDemo.controller.LoginController#login()
+2024-06-16T15:03:40.815+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-06-16T15:03:41.339+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-16T15:03:41.375+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/css/style.css", parameters={}
+2024-06-16T15:03:41.375+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/js/javascript.js", parameters={}
+2024-06-16T15:03:41.376+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/css/reset.css", parameters={}
+2024-06-16T15:03:41.382+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-06-16T15:03:41.381+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-06-16T15:03:41.381+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-06-16T15:03:41.402+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-16T15:03:41.407+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-16T15:03:41.414+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-16T15:03:41.546+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/css/path/to/font-file.ttf", parameters={}
+2024-06-16T15:03:41.546+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-06-16T15:03:41.561+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-5] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-06-16T15:03:41.566+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource css/path/to/font-file.ttf.]
+2024-06-16T15:03:41.566+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-06-16T15:03:41.578+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2024-06-16T15:03:41.580+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-06-16T15:03:41.614+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-06-16T15:03:41.617+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sun Jun 16 15:03:41 JST 2024, status=404, error=Not Found, trace=org.springframework.web. (truncated)...]
+2024-06-16T15:03:41.699+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2024-06-16T15:03:42.588+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2024-06-16T15:03:42.590+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-06-16T15:03:42.593+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-06-16T15:03:42.593+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2024-06-16T15:03:42.593+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-06-16T15:03:42.593+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2024-06-16T15:03:42.593+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-06-16T15:03:42.593+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json]
+2024-06-16T15:03:42.599+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sun Jun 16 15:03:42 JST 2024, status=404, error=Not Found, trace=org.springframework.web. (truncated)...]
+2024-06-16T15:03:42.605+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2024-06-16T15:03:49.187+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/login", parameters={masked}
+2024-06-16T15:03:49.189+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to projectcoffe.cofffeDemo.controller.LoginController#login(User)
+2024-06-16T15:03:49.216+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-06-16T15:03:49.288+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/css/substyle.css", parameters={}
+2024-06-16T15:03:49.289+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-06-16T15:03:49.290+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-16T15:03:49.294+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-16T15:03:55.072+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/hacchukakunin?cf1=2&cf2=0&cf3=0&cf4=0&cf5=0&cf6=0&milk=0&hukuro=0&tisshu=0", parameters={masked}
+2024-06-16T15:03:55.073+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to projectcoffe.cofffeDemo.controller.LoginController#hacchukakunin(HttpServletRequest, int, int, int, int, int, int, int, int, int)
+2024-06-16T15:03:55.092+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-9] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-06-16T15:03:55.150+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/css/substyle.css", parameters={}
+2024-06-16T15:03:55.152+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-06-16T15:03:55.154+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-16T15:03:55.179+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-16T15:07:12.241+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/css/substyle.css", parameters={}
+2024-06-16T15:07:12.242+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-06-16T15:07:12.247+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-16T15:29:28.088+09:00  INFO 5308 --- [cofffeDemo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-06-16T15:29:28.207+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] p.cofffeDemo.CofffeDemoApplication       : Starting CofffeDemoApplication using Java 17.0.6 with PID 5308 (C:\Users\tngoa\eclipse-workspace\cofffeDemo\target\classes started by tngoa in C:\Users\tngoa\eclipse-workspace\cofffeDemo)
+2024-06-16T15:29:28.208+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] p.cofffeDemo.CofffeDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-06-16T15:29:28.500+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-16T15:29:28.501+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-16T15:29:28.502+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-16T15:29:28.521+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-16T15:29:28.521+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 309 ms
+2024-06-16T15:29:28.571+09:00 DEBUG 5308 --- [cofffeDemo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2024-06-16T15:29:28.602+09:00 DEBUG 5308 --- [cofffeDemo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-06-16T15:29:28.607+09:00 DEBUG 5308 --- [cofffeDemo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-06-16T15:29:28.614+09:00 DEBUG 5308 --- [cofffeDemo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-06-16T15:29:28.641+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-16T15:29:28.667+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-06-16T15:29:28.670+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] p.cofffeDemo.CofffeDemoApplication       : Started CofffeDemoApplication in 0.501 seconds (process running for 1569.892)
+2024-06-16T15:29:28.673+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-06-16T15:29:51.743+09:00  INFO 5308 --- [cofffeDemo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-16T15:29:51.743+09:00  INFO 5308 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-16T15:29:51.743+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-06-16T15:29:51.743+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-06-16T15:29:51.743+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-06-16T15:29:51.743+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@36ebe646
+2024-06-16T15:29:51.743+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@382c0eeb
+2024-06-16T15:29:51.743+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-06-16T15:29:51.743+09:00  INFO 5308 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-06-16T15:29:51.743+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/hacchukakunin?cf1=2&cf2=0&cf3=0&cf4=0&cf5=0&cf6=0&milk=0&hukuro=0&tisshu=0", parameters={masked}
+2024-06-16T15:29:51.743+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to projectcoffe.cofffeDemo.controller.LoginController#hacchukakunin(HttpServletRequest, int, int, int, int, int, int, int, int, int)
+2024-06-16T15:29:51.760+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-06-16T15:29:51.819+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/css/substyle.css", parameters={}
+2024-06-16T15:29:51.820+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-06-16T15:29:51.823+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-16T15:29:51.843+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-16T15:29:59.972+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/hacchukakunin?cf1=012&cf2=14&cf3=0&cf4=0&cf5=0&cf6=0&milk=0&hukuro=0&tisshu=0", parameters={masked}
+2024-06-16T15:29:59.973+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to projectcoffe.cofffeDemo.controller.LoginController#hacchukakunin(HttpServletRequest, int, int, int, int, int, int, int, int, int)
+2024-06-16T15:29:59.974+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-06-16T15:30:00.007+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-16T15:30:00.027+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/css/substyle.css", parameters={}
+2024-06-16T15:30:00.028+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-06-16T15:30:00.032+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-16T15:46:57.149+09:00  INFO 5308 --- [cofffeDemo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2024-06-16T15:46:57.262+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] p.cofffeDemo.CofffeDemoApplication       : Starting CofffeDemoApplication using Java 17.0.6 with PID 5308 (C:\Users\tngoa\eclipse-workspace\cofffeDemo\target\classes started by tngoa in C:\Users\tngoa\eclipse-workspace\cofffeDemo)
+2024-06-16T15:46:57.263+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] p.cofffeDemo.CofffeDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-06-16T15:46:57.487+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-16T15:46:57.488+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-16T15:46:57.489+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-16T15:46:57.508+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-16T15:46:57.508+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 241 ms
+2024-06-16T15:46:57.548+09:00 DEBUG 5308 --- [cofffeDemo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2024-06-16T15:46:57.566+09:00 DEBUG 5308 --- [cofffeDemo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-06-16T15:46:57.574+09:00 DEBUG 5308 --- [cofffeDemo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-06-16T15:46:57.578+09:00 DEBUG 5308 --- [cofffeDemo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-06-16T15:46:57.608+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-16T15:46:57.627+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-06-16T15:46:57.630+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] p.cofffeDemo.CofffeDemoApplication       : Started CofffeDemoApplication in 0.405 seconds (process running for 2618.852)
+2024-06-16T15:46:57.632+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-06-16T15:47:55.314+09:00  INFO 5308 --- [cofffeDemo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2024-06-16T15:47:57.526+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] p.cofffeDemo.CofffeDemoApplication       : Starting CofffeDemoApplication using Java 17.0.6 with PID 5308 (C:\Users\tngoa\eclipse-workspace\cofffeDemo\target\classes started by tngoa in C:\Users\tngoa\eclipse-workspace\cofffeDemo)
+2024-06-16T15:47:57.527+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] p.cofffeDemo.CofffeDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-06-16T15:47:57.833+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-16T15:47:57.834+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-16T15:47:57.834+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-16T15:47:57.858+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-16T15:47:57.858+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 326 ms
+2024-06-16T15:47:57.901+09:00 DEBUG 5308 --- [cofffeDemo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2024-06-16T15:47:57.922+09:00 DEBUG 5308 --- [cofffeDemo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-06-16T15:47:57.931+09:00 DEBUG 5308 --- [cofffeDemo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-06-16T15:47:57.934+09:00 DEBUG 5308 --- [cofffeDemo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-06-16T15:47:57.957+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-16T15:47:57.991+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-06-16T15:47:57.996+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] p.cofffeDemo.CofffeDemoApplication       : Started CofffeDemoApplication in 0.52 seconds (process running for 2679.217)
+2024-06-16T15:47:57.997+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-06-16T15:58:30.563+09:00  INFO 5308 --- [cofffeDemo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 10 class path changes (0 additions, 0 deletions, 10 modifications)
+2024-06-16T15:58:30.710+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] p.cofffeDemo.CofffeDemoApplication       : Starting CofffeDemoApplication using Java 17.0.6 with PID 5308 (C:\Users\tngoa\eclipse-workspace\cofffeDemo\target\classes started by tngoa in C:\Users\tngoa\eclipse-workspace\cofffeDemo)
+2024-06-16T15:58:30.711+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] p.cofffeDemo.CofffeDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-06-16T15:58:31.103+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-16T15:58:31.104+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-16T15:58:31.105+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-16T15:58:31.134+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-16T15:58:31.136+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 419 ms
+2024-06-16T15:58:31.221+09:00 DEBUG 5308 --- [cofffeDemo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2024-06-16T15:58:31.251+09:00 DEBUG 5308 --- [cofffeDemo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-06-16T15:58:31.256+09:00 DEBUG 5308 --- [cofffeDemo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-06-16T15:58:31.260+09:00 DEBUG 5308 --- [cofffeDemo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-06-16T15:58:31.296+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-16T15:58:31.341+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-06-16T15:58:31.345+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] p.cofffeDemo.CofffeDemoApplication       : Started CofffeDemoApplication in 0.692 seconds (process running for 3312.568)
+2024-06-16T15:58:31.349+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-06-16T16:04:36.821+09:00  INFO 5308 --- [cofffeDemo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 10 class path changes (0 additions, 6 deletions, 4 modifications)
+2024-06-16T16:04:37.013+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] p.cofffeDemo.CofffeDemoApplication       : Starting CofffeDemoApplication using Java 17.0.6 with PID 5308 (C:\Users\tngoa\eclipse-workspace\cofffeDemo\target\classes started by tngoa in C:\Users\tngoa\eclipse-workspace\cofffeDemo)
+2024-06-16T16:04:37.014+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] p.cofffeDemo.CofffeDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-06-16T16:04:37.542+09:00  WARN 5308 --- [cofffeDemo] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: java.lang.NullPointerException: Cannot read field "generatedClass" because "data" is null
+2024-06-16T16:04:37.558+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-16T16:04:37.629+09:00 ERROR 5308 --- [cofffeDemo] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.NullPointerException: Cannot read field "generatedClass" because "data" is null
+	at org.springframework.cglib.proxy.Enhancer.nextInstance(Enhancer.java:783) ~[spring-core-6.1.8.jar:6.1.8]
+	at org.springframework.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:321) ~[spring-core-6.1.8.jar:6.1.8]
+	at org.springframework.cglib.proxy.Enhancer.createHelper(Enhancer.java:562) ~[spring-core-6.1.8.jar:6.1.8]
+	at org.springframework.cglib.proxy.Enhancer.createClass(Enhancer.java:407) ~[spring-core-6.1.8.jar:6.1.8]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer.createClass(ConfigurationClassEnhancer.java:147) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer.enhance(ConfigurationClassEnhancer.java:112) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.enhanceConfigurationClasses(ConfigurationClassPostProcessor.java:534) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanFactory(ConfigurationClassPostProcessor.java:311) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:363) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:153) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.6.jar:3.2.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.6.jar:3.2.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.6.jar:3.2.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.2.6.jar:3.2.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.2.6.jar:3.2.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.2.6.jar:3.2.6]
+	at projectcoffe.cofffeDemo.CofffeDemoApplication.main(CofffeDemoApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.6.jar:3.2.6]
+
+2024-06-16T16:09:14.854+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] p.cofffeDemo.CofffeDemoApplication       : Starting CofffeDemoApplication using Java 17.0.6 with PID 5308 (C:\Users\tngoa\eclipse-workspace\cofffeDemo\target\classes started by tngoa in C:\Users\tngoa\eclipse-workspace\cofffeDemo)
+2024-06-16T16:09:14.855+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] p.cofffeDemo.CofffeDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-06-16T16:09:15.388+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-16T16:09:15.392+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-16T16:09:15.394+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-16T16:09:15.440+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-16T16:09:15.440+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 581 ms
+2024-06-16T16:09:15.521+09:00 DEBUG 5308 --- [cofffeDemo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2024-06-16T16:09:15.552+09:00 DEBUG 5308 --- [cofffeDemo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-06-16T16:09:15.562+09:00 DEBUG 5308 --- [cofffeDemo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-06-16T16:09:15.568+09:00 DEBUG 5308 --- [cofffeDemo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-06-16T16:09:15.596+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-16T16:09:15.648+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-06-16T16:09:15.653+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] p.cofffeDemo.CofffeDemoApplication       : Started CofffeDemoApplication in 0.838 seconds (process running for 3956.875)
+2024-06-16T16:09:15.656+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-06-16T16:09:19.948+09:00  INFO 14816 --- [cofffeDemo] [main] p.cofffeDemo.CofffeDemoApplicationTests  : Starting CofffeDemoApplicationTests using Java 17.0.6 with PID 14816 (started by tngoa in C:\Users\tngoa\eclipse-workspace\cofffeDemo)
+2024-06-16T16:09:19.951+09:00  INFO 14816 --- [cofffeDemo] [main] p.cofffeDemo.CofffeDemoApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2024-06-16T16:09:20.005+09:00 DEBUG 14816 --- [cofffeDemo] [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3fbfa96
+2024-06-16T16:09:21.528+09:00  INFO 14816 --- [cofffeDemo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-16T16:09:21.571+09:00  INFO 14816 --- [cofffeDemo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 0 JPA repository interfaces.
+2024-06-16T16:09:22.331+09:00  WARN 14816 --- [cofffeDemo] [main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2024-06-16T16:09:22.365+09:00  INFO 14816 --- [cofffeDemo] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-06-16T16:09:22.426+09:00 ERROR 14816 --- [cofffeDemo] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2024-06-16T16:09:22.442+09:00  WARN 14816 --- [cofffeDemo] [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] to prepare test instance [projectcoffe.cofffeDemo.CofffeDemoApplicationTests@52ae997b]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@79476a4e testClass = projectcoffe.cofffeDemo.CofffeDemoApplicationTests, locations = [], classes = [projectcoffe.cofffeDemo.CofffeDemoApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@5443d039, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@22356acd, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@561868a0, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@5a709816, org.springframework.boot.test.context.SpringBootTestAnnotation@fedd50d8], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:180) ~[spring-test-6.1.8.jar:6.1.8]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130) ~[spring-test-6.1.8.jar:6.1.8]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:191) ~[spring-test-6.1.8.jar:6.1.8]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:130) ~[spring-test-6.1.8.jar:6.1.8]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260) ~[spring-test-6.1.8.jar:6.1.8]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:163) ~[spring-test-6.1.8.jar:6.1.8]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$10(ClassBasedTestDescriptor.java:378) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:383) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$11(ClassBasedTestDescriptor.java:378) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) ~[na:na]
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:377) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:290) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:289) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:279) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at java.base/java.util.Optional.orElseGet(Optional.java:364) ~[na:na]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:278) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:106) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:105) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56) ~[surefire-junit-platform-3.1.2.jar:3.1.2]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184) ~[surefire-junit-platform-3.1.2.jar:3.1.2]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148) ~[surefire-junit-platform-3.1.2.jar:3.1.2]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122) ~[surefire-junit-platform-3.1.2.jar:3.1.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) ~[surefire-booter-3.1.2.jar:3.1.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) ~[surefire-booter-3.1.2.jar:3.1.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) ~[surefire-booter-3.1.2.jar:3.1.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) ~[surefire-booter-3.1.2.jar:3.1.2]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Failed to initialize dependency 'dataSourceScriptDatabaseInitializer' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:326) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.8.jar:6.1.8]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.6.jar:3.2.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.6.jar:3.2.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.2.6.jar:3.2.6]
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137) ~[spring-boot-test-3.2.6.jar:3.2.6]
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58) ~[spring-core-6.1.8.jar:6.1.8]
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46) ~[spring-core-6.1.8.jar:6.1.8]
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1463) ~[spring-boot-3.2.6.jar:3.2.6]
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:553) ~[spring-boot-test-3.2.6.jar:3.2.6]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137) ~[spring-boot-test-3.2.6.jar:3.2.6]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108) ~[spring-boot-test-3.2.6.jar:3.2.6]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225) ~[spring-test-6.1.8.jar:6.1.8]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152) ~[spring-test-6.1.8.jar:6.1.8]
+	... 73 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:795) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:542) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1337) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1167) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:313) ~[spring-beans-6.1.8.jar:6.1.8]
+	... 88 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:648) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1337) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1167) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1443) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1353) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:904) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:782) ~[spring-beans-6.1.8.jar:6.1.8]
+	... 98 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:177) ~[spring-beans-6.1.8.jar:6.1.8]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:644) ~[spring-beans-6.1.8.jar:6.1.8]
+	... 112 common frames omitted
+Caused by: org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.determineDriverClassName(DataSourceProperties.java:186) ~[spring-boot-autoconfigure-3.2.6.jar:3.2.6]
+	at org.springframework.boot.autoconfigure.jdbc.PropertiesJdbcConnectionDetails.getDriverClassName(PropertiesJdbcConnectionDetails.java:49) ~[spring-boot-autoconfigure-3.2.6.jar:3.2.6]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration.createDataSource(DataSourceConfiguration.java:55) ~[spring-boot-autoconfigure-3.2.6.jar:3.2.6]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari.dataSource(DataSourceConfiguration.java:117) ~[spring-boot-autoconfigure-3.2.6.jar:3.2.6]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:140) ~[spring-beans-6.1.8.jar:6.1.8]
+	... 113 common frames omitted
+
+2024-06-16T16:11:19.300+09:00  INFO 5308 --- [cofffeDemo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-16T16:11:19.302+09:00  INFO 5308 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-16T16:11:19.302+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-06-16T16:11:19.302+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-06-16T16:11:19.302+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-06-16T16:11:19.303+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1007e895
+2024-06-16T16:11:19.304+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@1ec004e5
+2024-06-16T16:11:19.304+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-06-16T16:11:19.304+09:00  INFO 5308 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-06-16T16:11:19.305+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/css/substyle.css", parameters={}
+2024-06-16T16:11:19.306+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-06-16T16:11:19.309+09:00 DEBUG 5308 --- [cofffeDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-06-16T16:20:57.873+09:00  INFO 5308 --- [cofffeDemo] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-06-16T16:20:57.975+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] p.cofffeDemo.CofffeDemoApplication       : Starting CofffeDemoApplication using Java 17.0.6 with PID 5308 (C:\Users\tngoa\eclipse-workspace\cofffeDemo\target\classes started by tngoa in C:\Users\tngoa\eclipse-workspace\cofffeDemo)
+2024-06-16T16:20:57.976+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] p.cofffeDemo.CofffeDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-06-16T16:20:58.577+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-16T16:20:58.579+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-16T16:20:58.579+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-16T16:20:58.629+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-16T16:20:58.630+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 651 ms
+2024-06-16T16:20:58.690+09:00 DEBUG 5308 --- [cofffeDemo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2024-06-16T16:20:58.715+09:00 DEBUG 5308 --- [cofffeDemo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-06-16T16:20:58.720+09:00 DEBUG 5308 --- [cofffeDemo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-06-16T16:20:58.724+09:00 DEBUG 5308 --- [cofffeDemo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-06-16T16:20:58.774+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-06-16T16:20:58.807+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-06-16T16:20:58.812+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] p.cofffeDemo.CofffeDemoApplication       : Started CofffeDemoApplication in 0.88 seconds (process running for 4660.034)
+2024-06-16T16:20:58.815+09:00  INFO 5308 --- [cofffeDemo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged

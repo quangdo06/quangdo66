@@ -1,0 +1,426 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" th:href="@{/css/substyle.css}">
+        <title>Login</title>
+    </head> 
+    <body>
+        <main>
+            <header class="header">
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="#!">メニュー</a></li>
+                        <li><a href="#!" onclick="showContent('content1')">発注開始</a></li>
+                        <li><a href="#!" onclick="showContent('content2')">メニュー 2</a></li>
+                        <li><a href="#!" onclick="showContent('content3')">メニュー 3</a></li>
+                        <li><a href="#!" onclick="showContent('content4')">メニュー 4</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <div class="titles">
+                        <h2 class="title">こんにちは。左のメニューから選択してください</h2>
+                        <div class="desc">こっちのプロジェクトは勉強するために作られています。
+                        ご利用させていただいた写真など。個人的の利益のためではありません。
+                        </div>
+                    </div>
+                    <div class="content" id="contentArea">
+                        <div class="content1">
+                            <h1 class="title">発注開始</h1>
+                            <div class="imgs">
+                                <!-- ......................menu 1----------------- -->
+                                <ul class="top kino">
+                                    <li onclick="showkino('kino1')">
+                                        <a href="#!">発注リスト</a>
+                                        <div class="kino1">
+                                            <div class="kinoContent">
+                                                <p>発注リスト</p>
+                                                <!-- form hattyuu ************************************************* -->
+                                                <form th:action="@{/hacchukakunin}" method="get" class="HC">
+                                                    <div class="HCContainer">
+                                                        <div class="leftHC">
+                                                            <div>
+                                                                <p>コーヒー種類A</p>
+                                                                <input type="number" name="cf1" value=0>
+                                                                
+                                                            </div>
+                                                            <div>
+                                                                <p>コーヒー種類Ｂ</p>
+                                                                <input type="number" name="cf2" value="0">
+                                                            </div>
+                                                            <div>
+                                                                <p>コーヒー種類C</p>
+                                                                <input type="number" name="cf3" value="0">
+                                                            </div>
+                                                        </div>
+                                                        <div class="rightHC">
+                                                            <div>
+                                                                <p>コーヒー種類D</p>
+                                                                <input type="number" name="cf4" value="0">
+                                                            </div>
+                                                            <div>
+                                                                <p>コーヒー種類E</p>
+                                                                <input type="number" name="cf5" value="0">
+                                                            </div>
+                                                            <div>
+                                                                <p>コーヒー種類Ｆ</p>
+                                                                <input type="number" name="cf6" value="0">
+                                                            </div>
+                                                        </div>
+                                                        <div class="left1HC">
+                                                            <div>
+                                                                <p>ミルク</p>
+                                                                <input type="number" name="milk" value="0">
+                                                            </div>
+                                                            <div>
+                                                                <p>袋</p>
+                                                                <input type="number" name="hukuro" value="0">
+                                                            </div>
+                                                            <div>
+                                                                <p>ティッシュ</p>
+                                                                <input type="number" name="tisshu" value="0">
+                                                            </div>
+                                                        </div>
+                                                        <div class="kakunin">
+                                                            <p>発注確認</p>
+                                                            <table>
+                                                                <tr>
+                                                                    <th>コーヒー種類</th>
+                                                                    <th th:if="${hcl != null}" th:text="数"></th>
+                                                                    <th>単品金額</th>
+                                                                    <th>総計金額</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>コーヒー種類A</td>
+                                                                    <td th:if="${hcl != null}" th:text="${hcl.cf1}">0</td>
+                                                                    <td>x100円</td>
+                                                                    <td>
+                                                                    	<span th:if="${hcl != null}" th:text="${hcl.cf1 * 100}"></span>
+                                                                    	<span th:unless="${hcl == null}">円</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>コーヒー種類Ｂ</td>
+                                                                    <td th:if="${hcl != null}" th:text="${hcl.cf2}">0</td>
+                                                                    <td>x200円</td>
+                                                                    <td>
+                                                                    	<span th:if="${hcl != null}" th:text="${hcl.cf2 * 200}"></span>
+                                                                    	<span th:unless="${hcl == null}">円</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>コーヒー種類C</td>
+                                                                    <td th:if="${hcl != null}" th:text="${hcl.cf3}">0</td>
+                                                                    <td>x300円</td>
+                                                                    <td>
+                                                                    	<span th:if="${hcl != null}" th:text="${hcl.cf3 * 300}"></span>
+                                                                    	<span th:unless="${hcl == null}">円</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>コーヒー種類D</td>
+                                                                    <td th:if="${hcl != null}" th:text="${hcl.cf4}">0</td>
+                                                                    <td>x400円</td>
+                                                                    <td>
+                                                                    	<span th:if="${hcl != null}" th:text="${hcl.cf4 * 400}"></span>
+                                                                    	<span th:unless="${hcl == null}">円</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>コーヒー種類E</td>
+                                                                    <td th:if="${hcl != null}" th:text="${hcl.cf5}">0</td>
+                                                                    <td>x500円</td>
+                                                                    <td>
+                                                                    	<span th:if="${hcl != null}" th:text="${hcl.cf5 * 500}"></span>
+                                                                    	<span th:unless="${hcl == null}">円</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>コーヒー種類Ｆ</td>
+                                                                    <td th:if="${hcl != null}" th:text="${hcl.cf6}">0</td>
+                                                                    <td>x600円</td>
+                                                                    <td>
+                                                                    	<span th:if="${hcl != null}" th:text="${hcl.cf6 * 600}"></span>
+                                                                    	<span th:unless="${hcl == null}">円</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>ミルク</td>
+                                                                    <td th:if="${hcl != null}" th:text="${hcl.milk}">0</td>
+                                                                    <td>x1500円</td>
+                                                                    <td>
+                                                                    	<span th:if="${hcl != null}" th:text="${hcl.milk * 1500}"></span>
+                                                                    	<span th:unless="${hcl == null}">円</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>袋</td>
+                                                                    <td th:if="${hcl != null}" th:text="${hcl.hukuro}">0</td>
+                                                                    <td>x10円</td>
+                                                                    <td>
+                                                                    	<span th:if="${hcl != null}" th:text="${hcl.hukuro * 10}"></span>
+                                                                    	<span th:unless="${hcl == null}">円</span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>ティッシュ</td>
+                                                                    <td th:if="${hcl != null}" th:text="${hcl.tisshu}">0</td>
+                                                                    <td>x120円</td>
+                                                                    <td>
+                                                                    	<span th:if="${hcl != null}" th:text="${hcl.tisshu * 120}"></span>
+                                                                    	<span th:unless="${hcl == null}">円</span>
+                                                                    </td>
+                                                                </tr>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                    <button type="submit">submit</button>
+                                                </form>
+                                                <!-- form hattyuu ************************************************* -->
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li onclick="showkino('kino2')">
+                                        <a href="#!">在庫確認</a>
+                                        <div class="kino2">
+                                            <div class="kinoContent">
+                                                <!-- ......................kino 2----------------- -->
+                                                <table class="zaikokakunin">
+                                                    <tr>
+                                                        <th>商品名</th>
+                                                        <th>在庫数</th>
+                                                        <th>元金額</th>
+                                                        <th>売り金額</th>
+                                                        <th>利益率</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>コーヒー種類A</th>
+                                                        <th>
+                                                        	<span th:if="${zaiko != null}" th:text="${zaiko.zaikoCf1}"></span>
+                                                        </th>
+                                                        <th>
+                                                        	<span th:if="${zaiko != null}" th:text="${zaiko.zaikoCf1 * 100}"></span>
+                                                        	<p>(<span th:if="${zaiko != null}" th:text="${zaiko.zaikoCf1}"></span>個) x 100円</p>
+                                                        </th>
+                                                        <th>
+                                                        	<span th:if="${zaiko != null}" th:text="${zaiko.zaikoCf1 * 150}"></span>
+                                                        	<p>(<span th:if="${zaiko != null}" th:text="${zaiko.zaikoCf1}"></span>個) x 150円</p>
+                                                        </th>                                                        
+                                                        <th><span th:if="${zaiko != null}" th:text="${100 - (100.0 / 150.0) * 100}"></span>%</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>コーヒー種類Ｂ</th>
+                                                        <th>
+                                                        	<span th:if="${zaiko != null}" th:text="${zaiko.zaikoCf2}"></span>
+                                                        </th>
+                                                        <th>
+                                                        	<span th:if="${zaiko != null}" th:text="${zaiko.zaikoCf2 * 200}"></span>
+                                                        	<p>(<span th:if="${zaiko != null}" th:text="${zaiko.zaikoCf2}"></span>個) x 200円</p>
+                                                        </th>
+                                                        <th>
+                                                        	<span th:if="${zaiko != null}" th:text="${zaiko.zaikoCf2 * 250}"></span>
+                                                        	<p>(<span th:if="${zaiko != null}" th:text="${zaiko.zaikoCf2}"></span>個) x 250円</p>
+                                                        </th>                                                        
+                                                        <th><span th:if="${zaiko != null}" th:text="${100 - (200.0 / 250.0) * 100}"></span>%</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>コーヒー種類C</th>
+                                                        <th>
+                                                        	<span th:if="${zaiko != null}" th:text="${zaiko.zaikoCf3}"></span>
+                                                        </th>
+                                                        <th>
+                                                        	<span th:if="${zaiko != null}" th:text="${zaiko.zaikoCf3 * 300}"></span>
+                                                        	<p>(<span th:if="${zaiko != null}" th:text="${zaiko.zaikoCf3}"></span>個) x 300円</p>
+                                                        </th>
+                                                        <th>
+                                                        	<span th:if="${zaiko != null}" th:text="${zaiko.zaikoCf3 * 350}"></span>
+                                                        	<p>(<span th:if="${zaiko != null}" th:text="${zaiko.zaikoCf2}"></span>個) x 350円</p>
+                                                        </th>                                                        
+                                                        <th><span th:if="${zaiko != null}" th:text="${100 - (300.0 / 350.0) * 100}"></span>%</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>コーヒー種類D</th>
+                                                        <th>
+                                                        	<span th:if="${zaiko != null}" th:text="${zaiko.zaikoCf4}"></span>
+                                                        </th>
+                                                        <th>
+                                                        	<span th:if="${zaiko != null}" th:text="${zaiko.zaikoCf4 * 400}"></span>
+                                                        	<p>(<span th:if="${zaiko != null}" th:text="${zaiko.zaikoCf4}"></span>個) x 400円</p>
+                                                        </th>
+                                                        <th>
+                                                        	<span th:if="${zaiko != null}" th:text="${zaiko.zaikoCf4 * 450}"></span>
+                                                        	<p>(<span th:if="${zaiko != null}" th:text="${zaiko.zaikoCf4}"></span>個) x 450円</p>
+                                                        </th>                                                        
+                                                        <th><span th:if="${zaiko != null}" th:text="${100 - (400.0 / 450.0) * 100}"></span>%</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>コーヒー種類E</th>
+                                                        <th>
+                                                        	<span th:if="${zaiko != null}" th:text="${zaiko.zaikoCf5}"></span>
+                                                        </th>
+                                                        <th>
+                                                        	<span th:if="${zaiko != null}" th:text="${zaiko.zaikoCf5 * 500}"></span>
+                                                        	<p>(<span th:if="${zaiko != null}" th:text="${zaiko.zaikoCf5}"></span>個) x 500円</p>
+                                                        </th>
+                                                        <th>
+                                                        	<span th:if="${zaiko != null}" th:text="${zaiko.zaikoCf5 * 550}"></span>
+                                                        	<p>(<span th:if="${zaiko != null}" th:text="${zaiko.zaikoCf5}"></span>個) x 550円</p>
+                                                        </th>                                                        
+                                                        <th><span th:if="${zaiko != null}" th:text="${100 - (500.0 / 550.0) * 100}"></span>%</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>コーヒー種類Ｆ</th>
+                                                        <th>
+                                                        	<span th:if="${zaiko != null}" th:text="${zaiko.zaikoCf6}"></span>
+                                                        </th>
+                                                        <th>
+                                                        	<span th:if="${zaiko != null}" th:text="${zaiko.zaikoCf6 * 600}"></span>
+                                                        	<p>(<span th:if="${zaiko != null}" th:text="${zaiko.zaikoCf6}"></span>個) x 600円</p>
+                                                        </th>
+                                                        <th>
+                                                        	<span th:if="${zaiko != null}" th:text="${zaiko.zaikoCf6 * 650}"></span>
+                                                        	<p>(<span th:if="${zaiko != null}" th:text="${zaiko.zaikoCf6}"></span>個) x 650円</p>
+                                                        </th>                                                        
+                                                        <th><span th:if="${zaiko != null}" th:text="${100 - (600.0 / 650.0) * 100}"></span>%</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>ミルク</th>
+                                                        <th>
+                                                        	<span th:if="${zaiko != null}" th:text="${zaiko.zaikoMilk}"></span>
+                                                        </th>
+                                                        <th>
+                                                        	<span th:if="${zaiko != null}" th:text="${zaiko.zaikoMilk * 1500}"></span>
+                                                        	<p>(<span th:if="${zaiko != null}" th:text="${zaiko.zaikoMilk}"></span>個) x 1500円</p>
+                                                        </th>
+                                                        <th>
+                                                        	<span th:if="${zaiko != null}" th:text="${zaiko.zaikoMilk * 2500}"></span>
+                                                        	<p>(<span th:if="${zaiko != null}" th:text="${zaiko.zaikoMilk}"></span>個) x 2500円</p>
+                                                        </th>                                                        
+                                                        <th><span th:if="${zaiko != null}" th:text="${100 - (1500.0 / 2500.0) * 100}"></span>%</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>袋</th>
+                                                        <th>
+                                                        	<span th:if="${zaiko != null}" th:text="${zaiko.zaikoHukuro}"></span>
+                                                        </th>
+                                                        <th>
+                                                        	<span th:if="${zaiko != null}" th:text="${zaiko.zaikoHukuro * 10}"></span>
+                                                        	<p>(<span th:if="${zaiko != null}" th:text="${zaiko.zaikoHukuro}"></span>個) x 10円</p>
+                                                        </th>
+                                                        <th>
+                                                        	<span th:if="${zaiko != null}" th:text="${zaiko.zaikoHukuro * 25}"></span>
+                                                        	<p>(<span th:if="${zaiko != null}" th:text="${zaiko.zaikoHukuro}"></span>個) x 25円</p>
+                                                        </th>                                                        
+                                                        <th><span th:if="${zaiko != null}" th:text="${100 - (10.0 / 25.0) * 100}"></span>%</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>ティッシュ</th>
+                                                        <th>
+                                                        	<span th:if="${zaiko != null}" th:text="${zaiko.zaikoTisshu}"></span>
+                                                        </th>
+                                                        <th>
+                                                        	<span th:if="${zaiko != null}" th:text="${zaiko.zaikoTisshu * 120}"></span>
+                                                        	<p>(<span th:if="${zaiko != null}" th:text="${zaiko.zaikoTisshu}"></span>個) x 120円</p>
+                                                        </th>
+                                                        <th>
+                                                        	<span th:if="${zaiko != null}" th:text="${zaiko.zaikoTisshu * 200}"></span>
+                                                        	<p>(<span th:if="${zaiko != null}" th:text="${zaiko.zaikoTisshu}"></span>個) x 200円</p>
+                                                        </th>                                                        
+                                                        <th><span th:if="${zaiko != null}" th:text="${100 - (120.0 / 200.0) * 100}"></span>%</th>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li onclick="showkino('kino3')">
+                                        <a href="#!">SHOPS設定</a>
+                                        <div class="kino3">
+                                            <div class="kinoContent">
+                                                <p>現在、何も表示されていないbbbbbbbbbbb</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="bottom kino">
+                                    <li onclick="showkino('kino4')">
+                                        <a href="#!">発注サポート</a>
+                                        <div class="kino4">
+                                            <div class="kinoContent">
+                                                <p>現在、何も表示されていないccccccccc</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li onclick="showkino('kino5')">
+                                        <a href="#!">天気情報</a>
+                                        <div class="kino5">
+                                            <div class="kinoContent">
+                                                <p>現在、何も表示されていないddddddddd</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li onclick="showkino('kino6')">
+                                        <a href="#!">トラックルート</a>
+                                        <div class="kino6">
+                                            <div class="kinoContent">
+                                                <p>現在、何も表示されていないeeeeeeeee</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <!-- ......................menu 1----------------- -->
+                            </div>
+                            
+                        </div>
+                        <div class="content2">
+                            <div class="imgs">
+                                <img src="https://i.pinimg.com/736x/e9/96/f9/e996f95565118c1350eec1e9dcbdad1f.jpg" alt="Placeholder Image B">
+                                <h3>内容</h3>
+                                <p>何もない</p>
+                            </div>
+                        </div>
+                        <div class="content3">
+                            <div class="imgs">
+                                <img src="https://i.pinimg.com/736x/e9/96/f9/e996f95565118c1350eec1e9dcbdad1f.jpg" alt="Placeholder Image C">
+                                <h3>内容</h3>
+                                <p>何もないです。</p>
+                            </div>
+                        </div>
+                        <div class="content4">
+                            <div class="imgs">
+                                <img src="https://i.pinimg.com/736x/e9/96/f9/e996f95565118c1350eec1e9dcbdad1f.jpg" alt="Placeholder Image D">
+                                <h3>内容</h3>
+                                <p>何もないです。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </main>
+        <script>
+            function showContent(contentId) {
+                const contents = document.querySelectorAll('.content > div');
+                contents.forEach(content => {
+                    content.style.display = 'none';
+                });
+                document.querySelector(`.${contentId}`).style.display = 'block';
+            }
+            function showkino(contentId) {
+                const kinoItems = document.querySelectorAll('.kinoContent');
+                kinoItems.forEach(kino => {
+                    kino.style.display = 'none';
+                });
+                document.querySelector(`.${contentId} .kinoContent`).style.display = "block";
+                localStorage.setItem('activeKino', contentId);
+            }
+            document.addEventListener('DOMContentLoaded', (event) => {
+                showContent('content1');
+                const activeKino = localStorage.getItem('activeKino');
+            if (activeKino) {
+                showkino(activeKino);
+            }
+            });
+        </script>
+    </body>
+    </html>
