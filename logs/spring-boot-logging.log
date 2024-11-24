@@ -58,3 +58,16 @@
 2024-11-24T23:23:21.014+09:00 DEBUG 7512 --- [cofffeDemo] [https-jsse-nio-443-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json]
 2024-11-24T23:23:21.021+09:00 DEBUG 7512 --- [cofffeDemo] [https-jsse-nio-443-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sun Nov 24 23:23:21 JST 2024, status=404, error=Not Found, trace=org.springframework.web. (truncated)...]
 2024-11-24T23:23:21.033+09:00 DEBUG 7512 --- [cofffeDemo] [https-jsse-nio-443-exec-10] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2024-11-24T23:29:35.762+09:00 DEBUG 7512 --- [cofffeDemo] [https-jsse-nio-443-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2024-11-24T23:29:35.767+09:00 DEBUG 7512 --- [cofffeDemo] [https-jsse-nio-443-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected '*/*' given [*/*]
+2024-11-24T23:29:35.787+09:00 DEBUG 7512 --- [cofffeDemo] [https-jsse-nio-443-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-11-24T23:29:47.924+09:00 DEBUG 7512 --- [cofffeDemo] [https-jsse-nio-443-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/HNAP1/", parameters={}
+2024-11-24T23:29:47.926+09:00 DEBUG 7512 --- [cofffeDemo] [https-jsse-nio-443-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-11-24T23:29:47.933+09:00 DEBUG 7512 --- [cofffeDemo] [https-jsse-nio-443-exec-10] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2024-11-24T23:29:47.933+09:00 DEBUG 7512 --- [cofffeDemo] [https-jsse-nio-443-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource HNAP1.]
+2024-11-24T23:29:47.933+09:00 DEBUG 7512 --- [cofffeDemo] [https-jsse-nio-443-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2024-11-24T23:29:47.934+09:00 DEBUG 7512 --- [cofffeDemo] [https-jsse-nio-443-exec-10] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2024-11-24T23:29:47.935+09:00 DEBUG 7512 --- [cofffeDemo] [https-jsse-nio-443-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-11-24T23:29:47.938+09:00 DEBUG 7512 --- [cofffeDemo] [https-jsse-nio-443-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-11-24T23:29:47.940+09:00 DEBUG 7512 --- [cofffeDemo] [https-jsse-nio-443-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Sun Nov 24 23:29:47 JST 2024, status=404, error=Not Found, trace=org.springframework.web. (truncated)...]
+2024-11-24T23:29:47.945+09:00 DEBUG 7512 --- [cofffeDemo] [https-jsse-nio-443-exec-10] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
