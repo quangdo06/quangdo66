@@ -1,0 +1,24 @@
+.main {
+    position: relative;
+    background: rgb(136, 36, 36);
+    height: 100vh;
+}
+.main form {
+    position: absolute;
+    background-color: aliceblue;
+    justify-content: center;
+    width: 50vw;
+    height: 100vh;
+    top:0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.main form .username {
+    display: flex;
+    justify-content: space-around;
+}
+.main form .useraddress {
+    background-color: aqua;
+    justify-content: center;
+    width: 100%;
+}

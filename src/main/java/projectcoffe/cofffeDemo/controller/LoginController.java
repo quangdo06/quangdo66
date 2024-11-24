@@ -24,14 +24,14 @@ public class LoginController{
 	Zaiko zaiko = new Zaiko();
 	@GetMapping("/login")
 	public String login() {
-		return "/views/CofeShopProject/index.html";
+		return "views/CofeShopProject/index.html";
 	}
 	@PostMapping("/login")
 	public String login(@ModelAttribute User user) {
 		System.out.println("username: " + user.getUsername());
 		System.out.println("password: " + user.getPassword());
 		
-		return "/views/CofeShopProject/login.html";
+		return "views/CofeShopProject/login.html";
 	}
 	@GetMapping("/hacchukakunin")
 	public String hacchukakunin(HttpServletRequest req, @RequestParam(name="cf1" , required = false) int cf1
@@ -62,7 +62,7 @@ public class LoginController{
 		System.out.println("cf1 " + hcl.getCf1() + "  cf2 " + hcl.getCf2() + "  cf3 " + hcl.getCf3() + "  cf4 " + hcl.getCf4()+"  cf5 " + hcl.getCf5()+
 				"  cf6 " + hcl.getCf6()+ "  milk " + hcl.getMilk()+ "  hukuro " + hcl.getHukuro()+ "  tsshu " + hcl.getTisshu());
 		System.out.println("cf1: " + zaiko.getZaikoCf1() + "cf2: " + zaiko.getZaikoCf2());
-		return "/views/CofeShopProject/login.html";
+		return "views/CofeShopProject/login.html";
 	}
 	
 }

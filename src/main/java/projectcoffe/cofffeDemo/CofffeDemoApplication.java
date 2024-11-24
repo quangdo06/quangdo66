@@ -9,5 +9,4 @@ public class CofffeDemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(CofffeDemoApplication.class, args);
 	}
-
 }
